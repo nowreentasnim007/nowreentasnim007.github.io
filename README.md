@@ -1,23 +1,31 @@
 # Nowreen Tasnim — Academic Website
 
-Personal academic portfolio for Nowreen Tasnim, focused on disaster and climate risk, anticipatory finance, inclusive early warning and resilient infrastructure.
+Personal academic portfolio focused on disaster and climate risk, anticipatory finance, inclusive early warning and resilient infrastructure.
 
-## Public address
+## Public addresses
 
-For the cleanest GitHub Pages address, name this public repository:
+- Website: `https://nowreentasnim007.github.io/`
+- CV: `https://nowreentasnim007.github.io/files/Nowreen_Tasnim_CV.pdf`
 
-`nowreentasnim007.github.io`
+## Deployment structure
 
-The expected website address will then be:
+Keep the folders intact when uploading:
 
-`https://nowreentasnim007.github.io/`
+```text
+index.html
+assets/
+  fonts/
+files/
+  Nowreen_Tasnim_CV.pdf
+robots.txt
+sitemap.xml
+```
 
-## Publish through GitHub
+The CV is a normal hosted PDF rather than a base64 string. Website images and fonts are also separate files, keeping `index.html` lightweight and easier for browsers, search engines and academic-profile tools to process.
 
-1. Create a new **public** repository named `nowreentasnim007.github.io` under the `nowreentasnim007` account.
-2. Upload `index.html` and this `README.md` to the repository root and commit them to the `main` branch.
-3. Open **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**, then choose `main` and `/ (root)`.
-4. Save and wait for the deployment to finish. Open the public address above and test the CV download, theme toggle, map controls and external links.
+## Publish an update
 
-The website is intentionally self-contained: its approved photographs, Renaissance 21 visuals, typography and public CV are embedded in `index.html`.
-
+1. Upload every item above to the repository root, preserving the folders.
+2. Commit the changes to `main`.
+3. GitHub Pages will redeploy automatically.
+4. Test the website, the CV button and Google Scholar link in a private/incognito window.
