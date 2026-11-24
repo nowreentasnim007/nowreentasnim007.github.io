@@ -35,15 +35,17 @@
 @media(max-width:600px){.hero-signal{top:18px;left:18px}.systems-orbit{width:72%}.emp-media{grid-template-columns:1fr;padding:0 28px 28px}.emp-shot{min-height:320px}.context-grid{grid-template-columns:1fr}.context-card,.context-card:last-child{grid-column:auto;min-height:390px}.renaissance-filmstrip{grid-template-columns:1fr}.film-frame,.film-frame:last-child{grid-column:auto;min-height:220px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{animation:none!important;transition:none!important}}
 @media print{.site-header,.theme-toggle,.map-pin,.filters,.delta-divider{display:none}.wrap{width:100%;max-width:none}.section,.contact{padding:35px 0}.hero{min-height:0}.hero-visual{display:none}.proof{box-shadow:none;margin:0}.reveal{opacity:1;transform:none}.project-card:not([open]) .project-body{display:grid}.beyond{background:white;color:black}.beyond h2,.beyond h3{color:black}.renaissance img{max-height:420px;object-fit:contain}.button{border:1px solid black;color:black;background:white}}
+.research-map{min-height:700px}.map-svg{inset:15px 0 0;width:100%;height:calc(100% - 15px);overflow:visible}.map-svg .map-outline{stroke-width:2;stroke-linejoin:round}.map-svg .map-pin{cursor:pointer;outline:none}.map-svg .pin-halo{fill:var(--surface);stroke:var(--sage);stroke-width:2}.map-svg .pin-dot{fill:var(--sage)}.map-svg .map-pin:hover .pin-halo,.map-svg .map-pin:focus-visible .pin-halo,.map-svg .map-pin[aria-pressed="true"] .pin-halo{stroke:var(--azure);stroke-width:4}.map-svg .map-pin:focus-visible .pin-dot,.map-svg .map-pin[aria-pressed="true"] .pin-dot{fill:var(--azure)}.map-credit{position:absolute;bottom:12px;left:16px;right:16px;font:.61rem/1.45 var(--mono);color:var(--slate);background:var(--surface);padding:6px 9px}.map-credit a{text-decoration:underline}.pub-contribution{font-size:.78rem;color:var(--slate);margin:12px 0}.research-lead{padding-top:100px}.research-lead h1{font-size:clamp(3rem,6vw,5.5rem)}.research-lead>p{max-width:850px}.research-links{margin:34px 0 20px}.research-preview{background:var(--mist);padding:38px;margin-top:48px}.research-preview p{max-width:810px}.research-preview h3{font-size:1.9rem}
+@media(max-width:600px){.research-map{min-height:580px}.map-svg{inset:20px 0 0;width:100%;height:calc(100% - 20px)}.research-lead{padding-top:60px}}
 </style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap nav-wrap">
-      <a class="brand" href="#top" aria-label="Nowreen Tasnim, home"><span class="brand-mark" aria-hidden="true">NT</span><span class="brand-text">Nowreen Tasnim<small>Research and practice</small></span></a>
+      <a class="brand" href="index.html#top" aria-label="Nowreen Tasnim, home"><span class="brand-mark" aria-hidden="true">NT</span><span class="brand-text">Nowreen Tasnim<small>Research and practice</small></span></a>
       <nav class="nav-links" aria-label="Main navigation">
-        <a href="#agenda">Agenda</a><a href="#projects">Projects</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#beyond">Beyond research</a><a href="#contact">Contact</a>
+        <a href="#education">Education</a><a href="#agenda">Agenda</a><a href="research.html">Research</a><a href="#experience">Experience</a><a href="#beyond">Beyond research</a><a href="#contact">Contact</a>
       </nav>
       <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle light and dark theme">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.6 5.6 7 7m10 10 1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
@@ -91,159 +93,11 @@
         <article class="agenda-card reveal" data-number="02"><h3>Inclusive multi-hazard early warning</h3><p>Who can receive, understand and act on a warning, and which institutional changes make early-warning systems usable for persons with disabilities and other excluded groups?</p><p class="method"><span class="label">Methods and evidence</span>Field observation, case stories, interviews, focus groups, disability-sensitive documentation, policy analysis and operational guidance.</p></article>
         <article class="agenda-card reveal" data-number="03"><h3>Spatial climate-risk analysis for resilient infrastructure</h3><p>How can spatial risk and economic appraisal distinguish highly exposed assets from adaptation investments that merit closer engineering and local verification?</p><p class="method"><span class="label">Methods and evidence</span>ArcGIS, QGIS, hazard–exposure–vulnerability mapping, infrastructure-systems modelling, Python at a basic level and adaptation-benefit assessment.</p></article>
       </div>
-      <div class="doctoral-note reveal"><strong>Doctoral research interests</strong><p>I aim to study how flood-driven infrastructure disruption, livelihood losses and essential-service continuity interact, and how those relationships can inform equitable adaptation and financing decisions.</p><a class="button secondary" href="#contact">Open to PhD discussions</a></div>
+      <div class="doctoral-note reveal"><strong>Doctoral research interests</strong><p>Interacting hazards may cause damage beyond the assets initially exposed, as dependencies among infrastructure networks, ecosystems and livelihoods transmit disruption across sectors and communities. Spatial and systems modelling of baseline networks, informed by field evidence and timely risk data, can illuminate cascading effects and the distribution of direct and indirect losses. The goal is more rigorous risk prioritisation and better targeted anticipatory financing and adaptation investment to protect livelihoods and essential services.</p><a class="button secondary" href="research.html">Explore research ↗</a></div>
     </section>
 
     <div class="delta-divider" aria-hidden="true"><svg viewBox="0 0 1200 70" preserveAspectRatio="none"><g fill="none" stroke="currentColor" stroke-width="1" opacity=".8"><path d="M-20 8C180 80 280-20 470 42S780 22 1220 64"/><path d="M-20 23C160 85 330 2 485 49S830 8 1220 53"/><path d="M-20 42C180 90 330 20 520 57S900 4 1220 36"/><path d="M580 53C690 55 690 10 785 8M710 48C770 60 860 52 925 20"/></g></svg></div>
-    <section class="section wrap" id="projects" aria-labelledby="projects-title">
-      <div class="section-head"><div><p class="eyebrow">Research geography</p><h2 id="projects-title">Evidence from Bangladesh.</h2></div><p class="section-lead">Select a location to see how the work moves between household risk, institutions, finance and infrastructure.</p></div>
-      <div class="map-layout">
-        <div class="research-map" aria-label="Interactive stylised map of Bangladesh research locations">
-          <div class="map-title"><strong>Bangladesh</strong><span>SELECT A RESEARCH LOCATION</span></div>
-          <svg class="map-svg" viewBox="0 0 430 620" aria-hidden="true"><path class="map-outline" d="M170 25 220 40 255 80 330 92 390 140 345 195 360 245 315 290 345 350 300 400 318 455 282 510 290 600 248 575 225 510 190 485 160 430 110 410 75 345 95 290 55 235 80 175 62 118 115 90Z"/><path class="map-river" d="M210 42c-55 105 70 110-15 220s80 150 8 300M310 100c-95 80 10 145-85 220S150 450 250 570M105 110c20 100 145 100 60 230S95 435 155 500"/></svg>
-          <button class="map-pin pin-kurigram" type="button" data-project="kurigram" data-label="Kurigram" aria-label="Kurigram: anticipatory-financing thesis" aria-pressed="true"></button>
-          <button class="map-pin pin-rangpur" type="button" data-project="roads" data-label="Rangpur" aria-label="Rangpur: flood-resilient road research" aria-pressed="false"></button>
-          <button class="map-pin pin-rajshahi" type="button" data-project="roads" data-label="Rajshahi" aria-label="Rajshahi: flood-resilient road research" aria-pressed="false"></button>
-          <button class="map-pin pin-sirajganj" type="button" data-project="insurance" data-label="Sirajganj" aria-label="Sirajganj: climate-risk insurance" aria-pressed="false"></button>
-          <button class="map-pin pin-khulna" type="button" data-project="inclusive-adaptation" data-label="Khulna–Satkhira" aria-label="Khulna and Satkhira: inclusion research" aria-pressed="false"></button>
-          <button class="map-pin pin-bagerhat" type="button" data-project="early-warning" data-label="Bagerhat" aria-label="Bagerhat: inclusive early warning" aria-pressed="false"></button>
-          <button class="map-pin pin-cox" type="button" data-project="ddm" data-label="Cox’s Bazar" aria-label="Cox’s Bazar: disaster-governance research" aria-pressed="false"></button>
-        </div>
-        <article class="map-panel" aria-live="polite" tabindex="-1"><span class="map-place">Kurigram · Master’s thesis</span><h3>Risk-informed anticipatory financing for riverine flood resilience</h3><p>How can anticipatory financing better reflect livelihood losses and household financing needs before riverine floods?</p><dl><dt>My role</dt><dd>Master’s researcher, University of Dhaka</dd><dt>Methods</dt><dd>Quantitative analysis of a 300-household survey; five focus groups, 11 key-informant interviews and three in-depth interviews; contextual IWFM, BUET Dynamic Flood Risk Model outputs.</dd><dt>Output</dt><dd>Thesis submitted; selected for oral presentation at ICCDRM 2026, University of Dhaka.</dd></dl></article>
-      </div>
-      <div class="projects" style="margin-top:55px"><details class="project-card reveal" id="project-kurigram" data-project-card="kurigram">
-      <summary>
-        <span class="project-index">01</span>
-        <span><small>Master’s thesis · Kurigram</small><strong>Risk-informed anticipatory financing for riverine flood resilience</strong></span>
-        <span class="expand" aria-hidden="true">+</span>
-      </summary>
-      <div class="project-body">
-        <div><span class="label">Question</span><p>How can anticipatory financing better reflect livelihood losses and household financing needs before riverine floods?</p></div>
-        <div><span class="label">My role</span><p>Master’s researcher, University of Dhaka</p></div>
-        <div><span class="label">Methods</span><p>Quantitative analysis of a 300-household survey; five focus groups, 11 key-informant interviews and three in-depth interviews; contextual IWFM, BUET Dynamic Flood Risk Model outputs.</p></div>
-        <div><span class="label">Output</span><p>Thesis submitted; selected for oral presentation at ICCDRM 2026, University of Dhaka.</p></div>
-      </div>
-    </details><details class="project-card reveal" id="project-roads" data-project-card="roads">
-      <summary>
-        <span class="project-index">02</span>
-        <span><small>Spatial risk · Economic appraisal · Rajshahi · Rangpur</small><strong>Prioritising flood-resilient road investment in Northern Bangladesh</strong></span>
-        <span class="expand" aria-hidden="true">+</span>
-      </summary>
-      <div class="project-body">
-        <div><span class="label">Question</span><p>Which roads face the greatest future riverine flood risk, and where can adaptation investment offer defensible benefits?</p></div>
-        <div><span class="label">My role</span><p>Sole author; selected participant, EMP-APAC NISMOD Climate Resilience Track</p></div>
-        <div><span class="label">Methods</span><p>Infrastructure-systems modelling, spatial flood-risk analysis and adaptation-benefit appraisal.</p></div>
-        <div><span class="label">Output</span><p>Sole-authored research report developed and presented through EMP-APAC 2026.</p><a class="mini-link" href="https://doi.org/10.5281/zenodo.23581277" target="_blank" rel="noopener noreferrer">Open report <span aria-hidden="true">↗</span></a></div>
-      </div>
-    </details><details class="project-card reveal" id="project-early-warning" data-project-card="early-warning">
-      <summary>
-        <span class="project-index">03</span>
-        <span><small>Inclusive early warning · Bagerhat</small><strong>Community-based multi-hazard early warning for persons with disabilities</strong></span>
-        <span class="expand" aria-hidden="true">+</span>
-      </summary>
-      <div class="project-body">
-        <div><span class="label">Question</span><p>What prevents persons with disabilities from accessing and acting on early warnings?</p></div>
-        <div><span class="label">My role</span><p>Research Assistant and Documentation Officer, Centre for Disability in Development</p></div>
-        <div><span class="label">Methods</span><p>Field observation, case stories and qualitative evidence on warning-access barriers.</p></div>
-        <div><span class="label">Output</span><p>Inclusion-sensitive reporting and policy briefs; later contributions to inclusive guidance, operational tools, accessible infographics and training materials.</p></div>
-      </div>
-    </details><details class="project-card reveal" id="project-inclusive-adaptation" data-project-card="inclusive-adaptation">
-      <summary>
-        <span class="project-index">04</span>
-        <span><small>Inclusive adaptation · Khulna · Satkhira</small><strong>Inclusion in disaster-risk reduction and climate adaptation</strong></span>
-        <span class="expand" aria-hidden="true">+</span>
-      </summary>
-      <div class="project-body">
-        <div><span class="label">Question</span><p>How do disaster-risk reduction and climate-adaptation programmes address disability, gender and age inclusion?</p></div>
-        <div><span class="label">My role</span><p>Research Assistant, Bangladesh Disaster Preparedness Centre; HI/CDD-supported study</p></div>
-        <div><span class="label">Methods</span><p>Field research, policy review and qualitative synthesis focused on disability, gender and age.</p></div>
-        <div><span class="label">Output</span><p>Contributions to internal reports and advocacy presentations.</p></div>
-      </div>
-    </details><details class="project-card reveal" id="project-blended-finance" data-project-card="blended-finance">
-      <summary>
-        <span class="project-index">05</span>
-        <span><small>Blended finance · Bangladesh</small><strong>Finance design for climate-vulnerable enterprises</strong></span>
-        <span class="expand" aria-hidden="true">+</span>
-      </summary>
-      <div class="project-body">
-        <div><span class="label">Question</span><p>How can blended-finance tools support more inclusive access for climate-vulnerable cottage, micro and small enterprises?</p></div>
-        <div><span class="label">My role</span><p>Project Associate, UNDP–SMEF Blended Finance Project</p></div>
-        <div><span class="label">Methods</span><p>Programme frameworks, enterprise selection, credit-scoring tools, consultations and technical workshops.</p></div>
-        <div><span class="label">Output</span><p>Enterprise Selection Criteria Toolkit, credit-scoring tools, training-of-trainers and enterprise curricula.</p></div>
-      </div>
-    </details><details class="project-card reveal" id="project-policy" data-project-card="policy">
-      <summary>
-        <span class="project-index">06</span>
-        <span><small>Institutional research · Kurigram · Bagerhat · Cox’s Bazar</small><strong>Disaster-policy implementation and committee functionality</strong></span>
-        <span class="expand" aria-hidden="true">+</span>
-      </summary>
-      <div class="project-body">
-        <div><span class="label">Question</span><p>How are national disaster policies implemented, and how do Disaster Management Committees function locally?</p></div>
-        <div><span class="label">My role</span><p>Research Assistant, Bangladesh Preparedness Partnership / Asian Disaster Preparedness Center</p></div>
-        <div><span class="label">Methods</span><p>Surveys, focus groups, key-informant and in-depth interviews using KoboToolbox; institutional and policy analysis.</p></div>
-        <div><span class="label">Output</span><p>Evidence synthesis for institutional analysis and progress reporting.</p></div>
-      </div>
-    </details><details class="project-card reveal" id="project-insurance" data-project-card="insurance">
-      <summary>
-        <span class="project-index">07</span>
-        <span><small>Climate-risk finance · Sirajganj</small><strong>Climate-risk insurance product concept</strong></span>
-        <span class="expand" aria-hidden="true">+</span>
-      </summary>
-      <div class="project-body">
-        <div><span class="label">Question</span><p>How can a flood-risk insurance concept address affordability, accessibility and community resilience?</p></div>
-        <div><span class="label">My role</span><p>Participant, Short Course on Climate Risk Insurance</p></div>
-        <div><span class="label">Methods</span><p>Field research in flood-prone communities combined with product-concept design.</p></div>
-        <div><span class="label">Output</span><p>Designed and presented a climate-risk insurance product concept.</p></div>
-      </div>
-    </details><details class="project-card reveal" id="project-ddm" data-project-card="ddm">
-      <summary>
-        <span class="project-index">08</span>
-        <span><small>Policy–practice assessment · Cox’s Bazar</small><strong>Institutional dynamics and challenges in disaster-risk management</strong></span>
-        <span class="expand" aria-hidden="true">+</span>
-      </summary>
-      <div class="project-body">
-        <div><span class="label">Question</span><p>What institutional and local-governance challenges shape disaster-policy implementation?</p></div>
-        <div><span class="label">My role</span><p>Intern, Research and Training Wing, Department of Disaster Management</p></div>
-        <div><span class="label">Methods</span><p>Household surveys, focus groups, interviews and SWOT-based assessment.</p></div>
-        <div><span class="label">Output</span><p>Internship report submitted to MoDMR and IDMVS, University of Dhaka, with practical recommendations.</p></div>
-      </div>
-    </details></div>
-    </section>
-
-    <div class="delta-divider" aria-hidden="true"><svg viewBox="0 0 1200 70" preserveAspectRatio="none"><g fill="none" stroke="currentColor" stroke-width="1" opacity=".8"><path d="M-20 8C180 80 280-20 470 42S780 22 1220 64"/><path d="M-20 23C160 85 330 2 485 49S830 8 1220 53"/><path d="M-20 42C180 90 330 20 520 57S900 4 1220 36"/><path d="M580 53C690 55 690 10 785 8M710 48C770 60 860 52 925 20"/></g></svg></div>
-    <section class="section wrap" id="publications" aria-labelledby="publications-title">
-      <div class="section-head"><div><p class="eyebrow">Publications</p><h2 id="publications-title">Published research.</h2></div><p class="section-lead">Two peer-reviewed journal articles and one sole-authored research report, separated from work still under review or preparation.</p></div>
-      <article class="publication reveal">
-      <span class="pub-year">2026</span>
-      <div><p class="pub-type">Peer-reviewed journal article</p>
-      <h3>Inclusive early warning systems in the southwestern coastal region of Bangladesh: Leaving no one behind?</h3>
-      <p class="pub-summary">Examines inclusion in early-warning systems in coastal Bangladesh.</p>
-      <p class="citation">Shahrujjaman, S. M., Sojib, M. T. H., Bhattacharjee, B., Tasnim, N., Islam, I., &amp; Rahman, M. <em>Disability &amp; Society</em> · Advance online publication</p></div>
-      <a class="pub-link" href="https://doi.org/10.1080/09687599.2026.2723727" target="_blank" rel="noopener noreferrer">DOI / report <span aria-hidden="true">↗</span></a>
-    </article><article class="publication reveal">
-      <span class="pub-year">2026</span>
-      <div><p class="pub-type">Peer-reviewed journal article</p>
-      <h3>Ripples of crisis: Unveiling the health impacts of water pollution in Bangladesh.</h3>
-      <p class="pub-summary">Examines health impacts associated with water pollution in Bangladesh.</p>
-      <p class="citation">Sarkar, M., Beeva, S., Tasnim, N., Hasan, T., &amp; Tasnim, S. <em>Water, Air, &amp; Soil Pollution</em> · 237(2), Article 91</p></div>
-      <a class="pub-link" href="https://doi.org/10.1007/s11270-025-08768-4" target="_blank" rel="noopener noreferrer">DOI / report <span aria-hidden="true">↗</span></a>
-    </article><article class="publication reveal">
-      <span class="pub-year">2026</span>
-      <div><p class="pub-type">Research report</p>
-      <h3>Prioritising flood-resilient road investment in Northern Bangladesh: A NISMOD-based assessment of riverine flood risk and adaptation benefits in Rajshahi and Rangpur.</h3>
-      <p class="pub-summary">Screens riverine flood risk and adaptation benefits to inform road-investment priorities in Rajshahi and Rangpur.</p>
-      <p class="citation">Tasnim, N. <em>Zenodo</em> · Sole-authored research report</p></div>
-      <a class="pub-link" href="https://doi.org/10.5281/zenodo.23581277" target="_blank" rel="noopener noreferrer">DOI / report <span aria-hidden="true">↗</span></a>
-    </article>
-      <div class="developing">
-        <article><span class="label">Manuscript under review</span><h3>The inclusivity gap in anticipatory action</h3><p>A realist synthesis concerning marginalised groups in Bangladesh and the Global South; submitted to <em>Climate Services</em>. Status recorded 24 November 2026.</p></article>
-        <article><span class="label">Work in preparation</span><h3>Risk-informed anticipatory financing</h3><p>Journal manuscript based on the master’s thesis on riverine flood resilience in Bangladesh. Status recorded 24 November 2026.</p></article>
-      </div>
-      <div class="hero-actions"><a class="button secondary" href="https://scholar.google.com/citations?user=NSv7NugAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a class="button ghost" href="https://orcid.org/0009-0008-1676-794X" target="_blank" rel="noopener noreferrer">ORCID ↗</a></div>
-    </section>
-
-    <div class="delta-divider" aria-hidden="true"><svg viewBox="0 0 1200 70" preserveAspectRatio="none"><g fill="none" stroke="currentColor" stroke-width="1" opacity=".8"><path d="M-20 8C180 80 280-20 470 42S780 22 1220 64"/><path d="M-20 23C160 85 330 2 485 49S830 8 1220 53"/><path d="M-20 42C180 90 330 20 520 57S900 4 1220 36"/><path d="M580 53C690 55 690 10 785 8M710 48C770 60 860 52 925 20"/></g></svg></div>
-    <section class="section wrap" id="experience" aria-labelledby="experience-title">
+    <section class="section wrap" aria-labelledby="research-preview-title"><div class="research-preview"><p class="eyebrow">Research portfolio</p><h3 id="research-preview-title">Evidence across places and disciplines.</h3><p>Explore a geographic account of selected projects in Bangladesh, peer-reviewed publications, research contributions and a developing doctoral agenda.</p><a class="button" href="research.html">Explore the research ↗</a></div></section>    <section class="section wrap" id="experience" aria-labelledby="experience-title">
       <div class="section-head"><div><p class="eyebrow">Experience</p><h2 id="experience-title">Research into practice.</h2></div><p class="section-lead">A selective chronology of field research, institutional analysis, finance design and specialist training.</p></div>
       <div class="filters" role="group" aria-label="Filter experience timeline"><button class="filter" type="button" data-filter="All" aria-pressed="true">All</button><button class="filter" type="button" data-filter="Research" aria-pressed="false">Research</button><button class="filter" type="button" data-filter="Policy" aria-pressed="false">Policy</button><button class="filter" type="button" data-filter="Finance" aria-pressed="false">Finance</button><button class="filter" type="button" data-filter="Training" aria-pressed="false">Training</button></div>
       <div class="timeline"><article class="timeline-item reveal" data-category="Policy">
@@ -270,6 +124,9 @@
     </article><article class="timeline-item reveal" data-category="Research">
       <time>Jul–Oct 2024</time><div class="timeline-marker" aria-hidden="true"></div>
       <div><span class="timeline-category">Research</span><h3>Research Assistant</h3><p class="org">Bangladesh Disaster Preparedness Centre</p><p>Research on disability, gender and age inclusion in disaster-risk reduction and climate-adaptation programmes.</p></div>
+    </article><article class="timeline-item reveal" data-category="Research">
+      <time>Jul–Aug 2024</time><div class="timeline-marker" aria-hidden="true"></div>
+      <div><span class="timeline-category">Research</span><h3>Field Facilitator</h3><p class="org">Household remittance and socioeconomic outcomes study, Sylhet division</p><p>Collected household survey data, supported quality checks and documented field research.</p></div>
     </article><article class="timeline-item reveal" data-category="Policy">
       <time>Jul 2023–Jun 2024</time><div class="timeline-marker" aria-hidden="true"></div>
       <div><span class="timeline-category">Policy</span><h3>Youth Fellow</h3><p class="org">International Centre for Climate Change and Development</p><p>Field research, workshops and advocacy on gendered vulnerability, youth participation and inclusive adaptation.</p></div>
@@ -344,7 +201,7 @@
     <section class="contact" id="contact" aria-labelledby="contact-title"><div class="wrap contact-grid"><div><p class="eyebrow">Contact</p><h2 id="contact-title">The next<br>research question.</h2></div><div><p class="contact-note">I welcome conversations with prospective supervisors and research collaborators working on climate risk, adaptation finance, infrastructure resilience and inclusive early warning.</p><a class="email" href="mailto:nowreentasnim.17@gmail.com">nowreentasnim.17@gmail.com</a><div class="contact-links"><a href="https://scholar.google.com/citations?user=NSv7NugAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://www.linkedin.com/in/nowreen-tasnim" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://orcid.org/0009-0008-1676-794X" target="_blank" rel="noopener noreferrer">ORCID ↗</a><a href="https://github.com/nowreentasnim007" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="Nowreen_Tasnim_CV.pdf" target="_blank" rel="noopener noreferrer">View CV ↗</a></div><p style="margin-top:24px">References available on request. Referee contact details and phone numbers are intentionally excluded from this public website.</p></div></div></section>
   </main>
 
-  <footer class="footer"><div class="wrap"><span>© 2026 Nowreen Tasnim · Last updated 24 November 2026</span><span>Keyboard accessible · Reduced-motion aware · No tracking</span></div></footer>
+  <footer class="footer"><div class="wrap"><span>© 2026 Nowreen Tasnim · Last updated 25 November 2026</span><span>Keyboard accessible · Reduced-motion aware · No tracking</span></div></footer>
 
   <script>
   (() => {
@@ -355,11 +212,11 @@
     const setTheme=theme=>{root.dataset.theme=theme;toggle.setAttribute('aria-label',theme==='dark'?'Switch to light theme':'Switch to dark theme');try{localStorage.setItem('nt-theme',theme)}catch(e){}};
     setTheme(saved||preferred);toggle.addEventListener('click',()=>setTheme(root.dataset.theme==='dark'?'light':'dark'));
 
-    const projects={"kurigram": {"id": "kurigram", "place": "Kurigram", "type": "Master’s thesis", "title": "Risk-informed anticipatory financing for riverine flood resilience", "question": "How can anticipatory financing better reflect livelihood losses and household financing needs before riverine floods?", "role": "Master’s researcher, University of Dhaka", "methods": "Quantitative analysis of a 300-household survey; five focus groups, 11 key-informant interviews and three in-depth interviews; contextual IWFM, BUET Dynamic Flood Risk Model outputs.", "output": "Thesis submitted; selected for oral presentation at ICCDRM 2026, University of Dhaka.", "link": "", "link_label": ""}, "roads": {"id": "roads", "place": "Rajshahi · Rangpur", "type": "Spatial risk · Economic appraisal", "title": "Prioritising flood-resilient road investment in Northern Bangladesh", "question": "Which roads face the greatest future riverine flood risk, and where can adaptation investment offer defensible benefits?", "role": "Sole author; selected participant, EMP-APAC NISMOD Climate Resilience Track", "methods": "Infrastructure-systems modelling, spatial flood-risk analysis and adaptation-benefit appraisal.", "output": "Sole-authored research report developed and presented through EMP-APAC 2026.", "link": "https://doi.org/10.5281/zenodo.23581277", "link_label": "Open report"}, "early-warning": {"id": "early-warning", "place": "Bagerhat", "type": "Inclusive early warning", "title": "Community-based multi-hazard early warning for persons with disabilities", "question": "What prevents persons with disabilities from accessing and acting on early warnings?", "role": "Research Assistant and Documentation Officer, Centre for Disability in Development", "methods": "Field observation, case stories and qualitative evidence on warning-access barriers.", "output": "Inclusion-sensitive reporting and policy briefs; later contributions to inclusive guidance, operational tools, accessible infographics and training materials.", "link": "", "link_label": ""}, "inclusive-adaptation": {"id": "inclusive-adaptation", "place": "Khulna · Satkhira", "type": "Inclusive adaptation", "title": "Inclusion in disaster-risk reduction and climate adaptation", "question": "How do disaster-risk reduction and climate-adaptation programmes address disability, gender and age inclusion?", "role": "Research Assistant, Bangladesh Disaster Preparedness Centre; HI/CDD-supported study", "methods": "Field research, policy review and qualitative synthesis focused on disability, gender and age.", "output": "Contributions to internal reports and advocacy presentations.", "link": "", "link_label": ""}, "blended-finance": {"id": "blended-finance", "place": "Bangladesh", "type": "Blended finance", "title": "Finance design for climate-vulnerable enterprises", "question": "How can blended-finance tools support more inclusive access for climate-vulnerable cottage, micro and small enterprises?", "role": "Project Associate, UNDP–SMEF Blended Finance Project", "methods": "Programme frameworks, enterprise selection, credit-scoring tools, consultations and technical workshops.", "output": "Enterprise Selection Criteria Toolkit, credit-scoring tools, training-of-trainers and enterprise curricula.", "link": "", "link_label": ""}, "policy": {"id": "policy", "place": "Kurigram · Bagerhat · Cox’s Bazar", "type": "Institutional research", "title": "Disaster-policy implementation and committee functionality", "question": "How are national disaster policies implemented, and how do Disaster Management Committees function locally?", "role": "Research Assistant, Bangladesh Preparedness Partnership / Asian Disaster Preparedness Center", "methods": "Surveys, focus groups, key-informant and in-depth interviews using KoboToolbox; institutional and policy analysis.", "output": "Evidence synthesis for institutional analysis and progress reporting.", "link": "", "link_label": ""}, "insurance": {"id": "insurance", "place": "Sirajganj", "type": "Climate-risk finance", "title": "Climate-risk insurance product concept", "question": "How can a flood-risk insurance concept address affordability, accessibility and community resilience?", "role": "Participant, Short Course on Climate Risk Insurance", "methods": "Field research in flood-prone communities combined with product-concept design.", "output": "Designed and presented a climate-risk insurance product concept.", "link": "", "link_label": ""}, "ddm": {"id": "ddm", "place": "Cox’s Bazar", "type": "Policy–practice assessment", "title": "Institutional dynamics and challenges in disaster-risk management", "question": "What institutional and local-governance challenges shape disaster-policy implementation?", "role": "Intern, Research and Training Wing, Department of Disaster Management", "methods": "Household surveys, focus groups, interviews and SWOT-based assessment.", "output": "Internship report submitted to MoDMR and IDMVS, University of Dhaka, with practical recommendations.", "link": "", "link_label": ""}};
+    const projects={"kurigram": {"id": "kurigram", "place": "Kurigram", "type": "Master’s thesis", "title": "Risk-informed anticipatory financing for riverine flood resilience", "question": "How can anticipatory financing better reflect livelihood losses and household financing needs before riverine floods?", "role": "Master’s researcher, University of Dhaka", "methods": "Quantitative analysis of a 300-household survey; five focus groups, 11 key-informant interviews and three in-depth interviews; contextual IWFM, BUET Dynamic Flood Risk Model outputs.", "output": "Thesis submitted; selected for oral presentation at ICCDRM 2026, University of Dhaka.", "link": "", "link_label": ""}, "roads": {"id": "roads", "place": "Rajshahi · Rangpur", "type": "Spatial risk · Economic appraisal", "title": "Prioritising flood-resilient road investment in Northern Bangladesh", "question": "Which roads face the greatest future riverine flood risk, and where can adaptation investment offer defensible benefits?", "role": "Sole author; selected participant, EMP-APAC NISMOD Climate Resilience Track", "methods": "Infrastructure-systems modelling, spatial flood-risk analysis and adaptation-benefit appraisal.", "output": "Sole-authored research report developed and presented through EMP-APAC 2026.", "link": "https://doi.org/10.5281/zenodo.23581277", "link_label": "Open report"}, "early-warning": {"id": "early-warning", "place": "Bagerhat", "type": "Inclusive early warning", "title": "Community-based multi-hazard early warning for persons with disabilities", "question": "What prevents persons with disabilities from accessing and acting on early warnings?", "role": "Research Assistant and Documentation Officer, Centre for Disability in Development", "methods": "Field observation, case stories and qualitative evidence on warning-access barriers.", "output": "Inclusion-sensitive reporting and policy briefs; later contributions to inclusive guidance, operational tools, accessible infographics and training materials.", "link": "", "link_label": ""}, "inclusive-adaptation": {"id": "inclusive-adaptation", "place": "Khulna · Satkhira", "type": "Inclusive adaptation", "title": "Inclusion in disaster-risk reduction and climate adaptation", "question": "How do disaster-risk reduction and climate-adaptation programmes address disability, gender and age inclusion?", "role": "Research Assistant, Bangladesh Disaster Preparedness Centre; HI/CDD-supported study", "methods": "Field research, policy review and qualitative synthesis focused on disability, gender and age.", "output": "Contributions to internal reports and advocacy presentations.", "link": "", "link_label": ""}, "blended-finance": {"id": "blended-finance", "place": "Bangladesh", "type": "Blended finance", "title": "Finance design for climate-vulnerable enterprises", "question": "How can blended-finance tools support more inclusive access for climate-vulnerable cottage, micro and small enterprises?", "role": "Project Associate, UNDP–SMEF Blended Finance Project", "methods": "Programme frameworks, enterprise selection, credit-scoring tools, consultations and technical workshops.", "output": "Enterprise Selection Criteria Toolkit, credit-scoring tools, training-of-trainers and enterprise curricula.", "link": "", "link_label": ""}, "policy": {"id": "policy", "place": "Kurigram · Bagerhat · Cox’s Bazar", "type": "Institutional research", "title": "Disaster-policy implementation and committee functionality", "question": "How are national disaster policies implemented, and how do Disaster Management Committees function locally?", "role": "Research Assistant, Bangladesh Preparedness Partnership / Asian Disaster Preparedness Center", "methods": "Surveys, focus groups, key-informant and in-depth interviews using KoboToolbox; institutional and policy analysis.", "output": "Evidence synthesis for institutional analysis and progress reporting.", "link": "", "link_label": ""}, "insurance": {"id": "insurance", "place": "Sirajganj", "type": "Climate-risk finance", "title": "Climate-risk insurance product concept", "question": "How can a flood-risk insurance concept address affordability, accessibility and community resilience?", "role": "Participant, Short Course on Climate Risk Insurance", "methods": "Field research in flood-prone communities combined with product-concept design.", "output": "Designed and presented a climate-risk insurance product concept.", "link": "", "link_label": ""}, "ddm": {"id": "ddm", "place": "Cox’s Bazar", "type": "Policy–practice assessment", "title": "Institutional dynamics and challenges in disaster-risk management", "question": "What institutional and local-governance challenges shape disaster-policy implementation?", "role": "Intern, Research and Training Wing, Department of Disaster Management", "methods": "Household surveys, focus groups, interviews and SWOT-based assessment.", "output": "Internship report submitted to MoDMR and IDMVS, University of Dhaka, with practical recommendations.", "link": "", "link_label": ""}, "sylhet": {"id": "sylhet", "place": "Sylhet division", "type": "Disaster economics · Field research", "title": "Household remittance use and socioeconomic outcomes", "question": "How do remittances relate to household socioeconomic outcomes?", "role": "Field Facilitator, disaster economics research (July–August 2024)", "methods": "Household survey data collection, data quality checks and ethical field documentation.", "output": "Field evidence and research documentation for the Sylhet division study.", "link": "", "link_label": ""}};
     const panel=document.querySelector('.map-panel');
     const pins=[...document.querySelectorAll('.map-pin')];
     const renderProject=id=>{const p=projects[id];pins.forEach(pin=>pin.setAttribute('aria-pressed',String(pin.dataset.project===id)));panel.innerHTML=`<span class="map-place">${p.place} · ${p.type}</span><h3>${p.title}</h3><p>${p.question}</p><dl><dt>My role</dt><dd>${p.role}</dd><dt>Methods</dt><dd>${p.methods}</dd><dt>Output</dt><dd>${p.output}</dd></dl>${p.link?`<a class="mini-link" href="${p.link}" target="_blank" rel="noopener noreferrer">${p.link_label} ↗</a>`:''}`;};
-    pins.forEach(pin=>pin.addEventListener('click',()=>renderProject(pin.dataset.project)));
+    pins.forEach(pin=>{pin.addEventListener('click',()=>renderProject(pin.dataset.project));pin.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();renderProject(pin.dataset.project)}})});
 
     const filters=[...document.querySelectorAll('.filter')];const items=[...document.querySelectorAll('.timeline-item')];
     filters.forEach(button=>button.addEventListener('click',()=>{filters.forEach(b=>b.setAttribute('aria-pressed',String(b===button)));items.forEach(item=>item.hidden=button.dataset.filter!=='All'&&item.dataset.category!==button.dataset.filter);}));
@@ -371,7 +228,7 @@
     const counters=[...document.querySelectorAll('[data-count]')];
     if(!reduced){const countObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(!entry.isIntersecting)return;const el=entry.target;const target=Number(el.dataset.count);const start=performance.now();const duration=650;const tick=now=>{const progress=Math.min((now-start)/duration,1);el.textContent=Math.round(target*(1-Math.pow(1-progress,3)));if(progress<1)requestAnimationFrame(tick)};requestAnimationFrame(tick);countObserver.unobserve(el)}),{threshold:.7});counters.forEach(el=>{el.textContent='0';countObserver.observe(el)})}
 
-    const navLinks=[...document.querySelectorAll('.nav-links a')];const sections=navLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+    const navLinks=[...document.querySelectorAll('.nav-links a')].filter(a=>a.getAttribute('href').startsWith('#'));const sections=navLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
     if('IntersectionObserver' in window){const navObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting)navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id))})},{rootMargin:'-25% 0px -65% 0px',threshold:0});sections.forEach(section=>navObserver.observe(section));}
   })();
   </script>
